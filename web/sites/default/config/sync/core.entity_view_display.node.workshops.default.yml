@@ -1,0 +1,86 @@
+uuid: 6f02161c-ca4e-42d6-a864-32c9439a2a80
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.workshops.body
+    - field.field.node.workshops.field_location
+    - field.field.node.workshops.field_test
+    - field.field.node.workshops.field_workshop_date
+    - field.field.node.workshops.field_workshop_image
+    - image.style.thumbnail
+    - node.type.workshops
+  module:
+    - datetime
+    - image
+    - manage_display
+    - text
+    - webform
+id: node.workshops.default
+targetEntityType: node
+bundle: workshops
+mode: default
+content:
+  body:
+    type: text_summary_or_trimmed
+    label: hidden
+    settings:
+      trim_length: 120
+    third_party_settings: {  }
+    weight: 3
+    region: content
+  field_location:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 5
+    region: content
+  field_test:
+    type: webform_entity_reference_link
+    label: hidden
+    settings:
+      label: 'Go to [webform:title] webform'
+      dialog: ''
+      attributes: {  }
+    third_party_settings: {  }
+    weight: 6
+    region: content
+  field_workshop_date:
+    type: datetime_default
+    label: above
+    settings:
+      timezone_override: ''
+      format_type: medium
+    third_party_settings: {  }
+    weight: 4
+    region: content
+  field_workshop_image:
+    type: image
+    label: hidden
+    settings:
+      image_link: ''
+      image_style: thumbnail
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  title:
+    type: title
+    label: hidden
+    settings:
+      link_to_entity: true
+      tag: h2
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  created: true
+  langcode: true
+  uid: true

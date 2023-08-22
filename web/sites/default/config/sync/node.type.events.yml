@@ -1,0 +1,19 @@
+uuid: 529b8525-665f-4d7a-a565-2eaf95c127ef
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+      - account
+    parent: 'main:'
+name: Events
+type: events
+description: 'All events and activities held by the Games Club'
+help: ''
+new_revision: true
+preview_mode: 2
+display_submitted: false

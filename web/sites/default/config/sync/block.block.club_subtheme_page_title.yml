@@ -1,0 +1,20 @@
+uuid: 3723dc46-6fde-4dd4-b91c-f9ac676b7148
+langcode: en
+status: true
+dependencies:
+  theme:
+    - club_subtheme
+_core:
+  default_config_hash: L08MKBxup2M7ZUohgFLRVvrg0knEG8lTOTOT9XyMsyY
+id: club_subtheme_page_title
+theme: club_subtheme
+region: content
+weight: -6
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  label_display: '0'
+  provider: core
+visibility: {  }

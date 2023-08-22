@@ -1,0 +1,26 @@
+uuid: 2d1660a9-5e46-4e92-a09f-7812f21c32a0
+langcode: en
+status: true
+dependencies:
+  module:
+    - owlcarousel2
+    - system
+  theme:
+    - club_subtheme
+id: carouselblock
+theme: club_subtheme
+region: content
+weight: 3
+provider: null
+plugin: owlcarousel2_block
+settings:
+  id: owlcarousel2_block
+  label: 'Carousel block'
+  label_display: '0'
+  provider: owlcarousel2
+  carousel_id: '1'
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '<front>'

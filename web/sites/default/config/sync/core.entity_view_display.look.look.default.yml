@@ -1,0 +1,29 @@
+uuid: a1bc470d-0470-427a-9580-11bf935e75d5
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.look.look.field_look_path
+    - field.field.look.look.field_look_theme
+  module:
+    - look
+id: look.look.default
+targetEntityType: look
+bundle: look
+mode: default
+content:
+  name:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: -10
+    region: content
+hidden:
+  field_look_path: true
+  field_look_theme: true
+  langcode: true
+  parent: true
+  user_id: true
+  weight: true

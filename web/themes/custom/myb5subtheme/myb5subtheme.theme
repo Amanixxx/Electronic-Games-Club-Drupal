@@ -1,0 +1,16 @@
+<?php
+
+/**
+ * @file
+ * B5 subtheme theme file.
+ */
+/**
+ * Preprocess function for node.html.twig.
+ */
+function myb5subtheme_preprocess_node(&$variables) {
+    // If the current user is logged in, and they are the owner of the node
+    // being viewed, add a suffix to the label variable.
+
+      $variables['label']['#suffix'] =' [you are the author]';
+
+  }

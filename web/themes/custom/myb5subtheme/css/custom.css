@@ -1,0 +1,157 @@
+
+my css
+.events .views-view-grid .views-col
+{
+   float: left;
+  padding: 20px;
+  border: black;
+  background-color: beige;
+  min-width: auto;
+  min-height: 300px;
+  border-style: solid;
+}
+*/
+.field__item .img-fluid {
+  max-width: 50%;
+  height: auto;
+  border:black 3px solid;
+  border-radius: 50px;
+      position: relative;
+      margin-left: 12em;
+      margin-top: 3em;
+}
+.field__item p.clearfix {
+   margin-top: 0;
+  margin-bottom: 1rem;
+  text-align: center;
+  size: a3;
+  font-size: large;
+}
+.events .views-col{
+padding: 2em;;
+
+
+
+}
+ /* .views-field.views-field-field-event-image */
+ .events .img-fluid{
+
+  width: 100%;
+  border: solid 3px #eee;
+  padding: 3px;
+  border-radius: 50px;
+
+}
+/*.views-field .views-field-title */
+.events .views-field .event-title {
+  position : relative;
+  bottom: 70px;
+  left: 15px;
+  color: #fff;
+
+  font-size:13px;
+  padding : 0.5em 0.7em;
+  background : rgba(17,17,17,0.3);
+}
+
+
+
+.home-block {
+  padding: 0;
+  margin-block: 0px;
+  /* position: relative; */
+  min-block-size: min-content;
+  max-block-size: 100%;
+
+}
+
+h1.home-block-title{
+
+ margin:0;
+padding: 0;
+box-sizing: border-box;
+ color: #222;
+ position: relative;
+ font-size: 6em;
+
+}
+h1.home-block-title::before{
+content: attr(data-text);
+position: absolute;
+color: #fff;
+width: 200px;
+overflow: hidden;
+white-space: nowrap;
+border-right: 4px solid #fff;
+animation: animate 8s linear infinite;
+filter: drop-shadow(0 0 20px #fff) drop-shadow(0 0 50px #fff);
+}
+@keyframes  animate{
+0%,10%,100%{
+width: 0;
+}
+70%,90%{
+  width: 100%;
+  }
+
+}
+h3.home-block-title{
+
+  padding: 0.5em 0.5em;
+  font-size: large;
+  color: #eee;
+  position: relative;
+
+}
+
+div#block-welcomeblock {
+margin-top: 3em;
+background: #5c636a40;
+}
+
+/*  background image style for home page */
+body.path-frontpage{
+
+  background-image: url("/Pictures/homeBackground.png");
+   height: 100%;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+   width: 100%;
+   background-color: #f8f8f8;
+
+}
+
+/* footer */
+a.nav-link{
+color: white;
+}
+
+div#block-myb5subtheme-powered-by-drupal {
+  color: white;
+}
+/* menu */
+#block-myb5subtheme-account-menu .nav a.nav-link {
+ position: relative;
+  color: #fff;
+  margin:10px;
+
+}
+#block-myb5subtheme-account-menu .nav a::before {
+content: '';
+position: absolute;
+height: 3px;
+width: 0%;
+left: 0;
+background-color:var(--club);
+  bottom: -5px;
+  transition: 0.3s;
+
+
+
+}
+
+#block-myb5subtheme-account-menu .nav a:hover::before{
+  width: 100%;
+
+}

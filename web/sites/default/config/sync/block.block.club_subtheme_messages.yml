@@ -1,0 +1,22 @@
+uuid: 6b9de5b1-b900-4694-b190-5ce309249f91
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - club_subtheme
+_core:
+  default_config_hash: aVKRpJlbOk7wKx1NnlofpRGgWoTrB04kAtt-TL2vlVA
+id: club_subtheme_messages
+theme: club_subtheme
+region: content
+weight: -7
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: Messages
+  label_display: '0'
+  provider: system
+visibility: {  }

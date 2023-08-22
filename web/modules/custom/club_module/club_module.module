@@ -1,0 +1,19 @@
+<?php
+
+
+/**
+ *@file
+*Implement our hook
+ */
+
+ /**
+ *@file
+*Implement  hook_them().
+ */
+function  club_module_theme($existing, $type, $theme, $path){
+return[
+'club_list'=>[
+'variables'=>['items'=> [], 'title'=> ''],
+]
+];
+}

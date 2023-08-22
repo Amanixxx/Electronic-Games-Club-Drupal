@@ -1,0 +1,6 @@
+hello_world.api_config:
+  title: API Credentials
+  description: Menu to add api credentials
+  parent: system.admin_config_system
+  route_name: hello_world.api_config
+  weight: 10

@@ -1,0 +1,20 @@
+uuid: bb26e0ce-dad4-4549-a245-617fa1711b63
+langcode: en
+status: true
+dependencies:
+  module:
+    - look
+id: look.look.user_id
+field_name: user_id
+entity_type: look
+bundle: look
+label: 'Authored by'
+description: 'The user ID of author of the Look entity.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: default
+  handler_settings: {  }
+field_type: entity_reference

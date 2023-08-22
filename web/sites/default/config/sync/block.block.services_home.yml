@@ -1,0 +1,30 @@
+uuid: 37664a7b-8ab1-402a-8970-60404e8a5573
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:fc4ac7c7-9245-4672-9978-777db06cda74'
+  module:
+    - block_content
+    - system
+  theme:
+    - club_subtheme
+id: services_home
+theme: club_subtheme
+region: content
+weight: 1
+provider: null
+plugin: 'block_content:fc4ac7c7-9245-4672-9978-777db06cda74'
+settings:
+  id: 'block_content:fc4ac7c7-9245-4672-9978-777db06cda74'
+  label: services_home
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '<front>'

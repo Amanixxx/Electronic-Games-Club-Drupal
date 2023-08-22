@@ -1,0 +1,15 @@
+uuid: 418732c9-cf2b-417b-9634-df15e2b75b5f
+langcode: en
+status: true
+dependencies: {  }
+name: workshops_poster
+label: workshops_poster
+effects:
+  56dff4cb-f5a1-42f4-9989-dd9fa875b245:
+    uuid: 56dff4cb-f5a1-42f4-9989-dd9fa875b245
+    id: image_scale
+    weight: 1
+    data:
+      width: 715
+      height: null
+      upscale: false

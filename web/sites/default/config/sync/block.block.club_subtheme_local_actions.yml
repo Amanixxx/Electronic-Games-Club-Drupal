@@ -1,0 +1,20 @@
+uuid: 34990850-f6a6-4f85-91f7-9f44a9a2f781
+langcode: en
+status: true
+dependencies:
+  theme:
+    - club_subtheme
+_core:
+  default_config_hash: Pn51rSJFvDtFoRHk4CiUTeLQhoOXqZFlaC3k1r8buww
+id: club_subtheme_local_actions
+theme: club_subtheme
+region: content
+weight: -3
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  label_display: '0'
+  provider: core
+visibility: {  }

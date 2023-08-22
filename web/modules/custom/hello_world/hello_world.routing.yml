@@ -1,0 +1,41 @@
+hello_world.hellomasseg:
+  path: '/hello-world'
+  defaults:
+   _controller: 'Drupal\hello_world\Controller\HelloWorldController::message'
+   _title: 'Hello world!!'
+  requirements:
+   _permission: 'access content'
+
+
+hello_world.catfact:
+  path: '/get-cat-facts'
+  defaults:
+   _controller: 'Drupal\hello_world\Controller\APIController::getFact'
+   _title: 'Cat facts!!'
+  requirements:
+   _permission: 'access content'
+
+
+hello_world.restapi:
+  path: '/rest-api'
+  defaults:
+   _controller: 'Drupal\hello_world\Controller\APIController::restPostApi'
+   _title: 'post api!!'
+  requirements:
+   _permission: 'access content'
+
+hello_world.api_config:
+  path: '/admin/config/system/a-p-i-config'
+  defaults:
+    _title: 'API Credentials'
+    _form: 'Drupal\hello_world\Form\APIConfigForm'
+  requirements:
+    _permission: 'administer site configuration'
+
+hello_world.saveapidata:
+  path: '/save-api-data'
+  defaults:
+   _controller: 'Drupal\hello_world\Controller\APIController::saveAPIData'
+   _title: 'post api!!'
+  requirements:
+   _permission: 'access content'

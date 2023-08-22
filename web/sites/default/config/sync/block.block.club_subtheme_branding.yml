@@ -1,0 +1,25 @@
+uuid: cc6e2e2b-19e2-4b21-9521-a07a0af746f3
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - club_subtheme
+_core:
+  default_config_hash: 4Py_Kn_AafIauCZsjFiUoxOtJXRCCU-NSv_pNBNp8KA
+id: club_subtheme_branding
+theme: club_subtheme
+region: nav_branding
+weight: -6
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  label_display: '0'
+  provider: system
+  use_site_logo: true
+  use_site_name: false
+  use_site_slogan: false
+visibility: {  }

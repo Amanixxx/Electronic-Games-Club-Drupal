@@ -1,0 +1,32 @@
+uuid: 29307a1d-c17c-479d-9181-fc2d5a0548e2
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_test
+    - node.type.workshops
+    - webform.webform.test
+  module:
+    - webform
+id: node.workshops.field_test
+field_name: field_test
+entity_type: node
+bundle: workshops
+label: 'Register Form'
+description: ''
+required: true
+translatable: false
+default_value:
+  -
+    target_uuid: 7fa4fed2-11d4-4838-93c9-4686b67af03e
+    default_data: ''
+    status: open
+    open: ''
+    close: ''
+default_value_callback: ''
+settings:
+  handler: 'default:webform'
+  handler_settings:
+    target_bundles: null
+    auto_create: false
+field_type: webform

@@ -1,0 +1,10 @@
+club_module.club_list:
+  path: '/club_list'
+  defaults:
+   _controller: 'Drupal\club_module\Controller\ClubController::club_list'
+   _title: 'Club Module!!'
+  requirements:
+   _permission: 'access content'
+
+
+

@@ -1,0 +1,20 @@
+uuid: daafc2df-904b-46e0-873c-8b93690a3be5
+langcode: en
+status: true
+dependencies:
+  module:
+    - look
+id: look.look.parent
+field_name: parent
+entity_type: look
+bundle: look
+label: Parent
+description: 'The parent of this look in relation to other looks.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: default
+  handler_settings: {  }
+field_type: entity_reference

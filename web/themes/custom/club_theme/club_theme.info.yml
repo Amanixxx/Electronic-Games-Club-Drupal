@@ -1,0 +1,23 @@
+# THEMENAME.info.yml file for club theme.
+name: 'Club-Theme'
+type: theme
+base theme: stable9
+description: 'A great theme for games club website.'
+package: Custom
+core_version_requirement: ^9 || ^10
+
+
+
+libraries:
+  - club_theme/global-styling
+
+regions:
+  header: 'Header'
+  content: 'Content'
+  content_bottom: 'Content (bottom)'
+  primary_menu: 'Primary menu'
+  banner_top: 'Banner (top)'
+  banner_bottom: 'Banner (bottom)'
+  footer: 'Footer'
+  page_top: 'Page top'
+  page_bottom: 'Page bottom'

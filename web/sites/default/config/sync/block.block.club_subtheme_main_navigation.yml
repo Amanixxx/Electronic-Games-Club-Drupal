@@ -1,0 +1,31 @@
+uuid: 2b80388b-1bde-47ce-8786-84d9e68a4ca1
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.main
+  module:
+    - system
+  theme:
+    - club_subtheme
+_core:
+  default_config_hash: pkUDKp3d-t9pqVjC77PjGnf9f2TKSNCNpf4vY_5fick
+id: club_subtheme_main_navigation
+theme: club_subtheme
+region: nav_main
+weight: 0
+provider: null
+plugin: 'system_menu_block:main'
+settings:
+  id: 'system_menu_block:main'
+  label: 'Main navigation'
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: true
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '<none>'

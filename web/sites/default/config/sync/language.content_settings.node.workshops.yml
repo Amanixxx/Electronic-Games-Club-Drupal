@@ -1,0 +1,11 @@
+uuid: 54836af3-4a00-429e-8a1b-1c66c2e972ec
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.workshops
+id: node.workshops
+target_entity_type_id: node
+target_bundle: workshops
+default_langcode: site_default
+language_alterable: false

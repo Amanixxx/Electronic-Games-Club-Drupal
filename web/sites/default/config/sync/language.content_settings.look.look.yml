@@ -1,0 +1,17 @@
+uuid: 762409af-202c-494c-8dc5-6e222953ce9d
+langcode: en
+status: true
+dependencies:
+  module:
+    - content_translation
+    - look
+third_party_settings:
+  content_translation:
+    enabled: false
+    bundle_settings:
+      untranslatable_fields_hide: '0'
+id: look.look
+target_entity_type_id: look
+target_bundle: look
+default_langcode: site_default
+language_alterable: false

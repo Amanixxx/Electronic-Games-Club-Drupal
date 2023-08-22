@@ -1,0 +1,43 @@
+uuid: aa9bb40d-d04d-4bb6-82b4-0c39277d800a
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.owlcarousel2
+    - field.field.node.news.body
+    - field.field.node.news.field_news_image
+    - image.style.owlcarousel2
+    - node.type.news
+  module:
+    - image
+    - text
+id: node.news.owlcarousel2
+targetEntityType: node
+bundle: news
+mode: owlcarousel2
+content:
+  body:
+    type: text_summary_or_trimmed
+    label: hidden
+    settings:
+      trim_length: 70
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_news_image:
+    type: image
+    label: hidden
+    settings:
+      image_link: ''
+      image_style: owlcarousel2
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  created: true
+  langcode: true
+  links: true
+  title: true
+  uid: true

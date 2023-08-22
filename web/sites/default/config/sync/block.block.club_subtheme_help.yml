@@ -1,0 +1,22 @@
+uuid: 67499f29-5da0-4b9d-9f1e-c02305e9d9b8
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - club_subtheme
+_core:
+  default_config_hash: PGKsoWgUx0ROLwEx0uTEKuQ5UxrP_Rx7exZm0FfvIpA
+id: club_subtheme_help
+theme: club_subtheme
+region: content
+weight: -4
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  label_display: '0'
+  provider: help
+visibility: {  }
