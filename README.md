@@ -88,11 +88,6 @@ where:
  'localhost' is the web server host where Drupal is installed
  'password' is the password required for that username
 
-Note: Unless the database user/host combination for your Drupal installation
-has all of the privileges listed above (except possibly CREATE TEMPORARY TABLES,
-which is currently only used by Drupal core automated tests and some
-contributed modules), you will not be able to install or run Drupal.
-
 If successful, MySQL will reply with:
 
   Query OK, 0 rows affected
@@ -142,9 +137,6 @@ providers][service providers] offering design, strategy, development, and
 hosting services.
 
 ## Legal matters
-
-Know your rights when using Drupal by reading Drupal core's
-[license](/core/LICENSE.txt).
 
 Learn about the [Drupal trademark and logo policy here][trademark].
 
