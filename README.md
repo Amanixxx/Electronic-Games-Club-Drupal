@@ -37,7 +37,7 @@ changes for a record of every notable breaking change and new feature since
 2011.
 
 ## Drupal requires:
-
+- This project Drupal 9.5.9
 - A web server with PHP support, for example:
   - Apache 2.4.54.2  (http://httpd.apache.org/).
 - PHP 8.1.13 (or greater) (http://php.net/).
