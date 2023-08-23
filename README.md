@@ -99,9 +99,7 @@ Visit the [Support page][support] or browse [over a thousand Drupal
 providers][service providers] offering design, strategy, development, and
 hosting services.
 
-## Legal matters
 
-Learn about the [Drupal trademark and logo policy here][trademark].
 
 [Drupal.org]: https://www.drupal.org
 [Drupal community]: https://www.drupal.org/community
