@@ -57,12 +57,10 @@ variety of operating systems and web servers, see "Local server setup"
 Note that all directories mentioned in this document are always relative to the
 directory of your Drupal installation, and commands are meant to be run from
 this directory (except for the initial commands that create that directory).
-## Create Database
-CREATE THE MySQL DATABASE
---------------------------
 
-This step is only necessary if you don't already have a database set up (e.g.,
-by your host). In the following examples, 'username' is an example MySQL user
+## Create MySQL Database
+
+ In the following examples, 'username' is an example MySQL user
 which has the CREATE and GRANT privileges. Use the appropriate user name for
 your system.
 
