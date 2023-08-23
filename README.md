@@ -9,35 +9,11 @@ websites ranging from personal weblogs to large community-driven websites. For
 more information, visit the Drupal website, [Drupal.org][Drupal.org], and join
 the [Drupal community][Drupal community].
 
-## Contributing
-
-Drupal is developed on [Drupal.org][Drupal.org], the home of the international
-Drupal community since 2001!
-
-[Drupal.org][Drupal.org] hosts Drupal's [GitLab repository][GitLab repository],
-its [issue queue][issue queue], and its [documentation][documentation]. Before
-you start working on code, be sure to search the [issue queue][issue queue] and
-create an issue if your aren't able to find an existing issue.
-
-Every issue on Drupal.org automatically creates a new community-accessible fork
-that you can contribute to. Learn more about the code contribution process on
-the [Issue forks & merge requests page][issue forks].
-
-## Usage
-
-You can quickly extend Drupal's core feature set by installing any of its
-[thousands of free and open source modules][modules]. With Drupal and its
-module ecosystem, you can often build most or all of what your project needs
-before writing a single line of code.
-
-## Changelog
-
-Drupal keeps detailed [change records][changelog]. You can search Drupal's
-changes for a record of every notable breaking change and new feature since
-2011.
+# About 
+This project was built for the Electronic Games Club to automate The services in the club and the definition about it
 
 ## Drupal requires:
-- This project Drupal 9.5.9
+- This project Drupal  9.5.9 -v
 - A web server with PHP support, for example:
   - Apache 2.4.54.2  (http://httpd.apache.org/).
 - PHP 8.1.13 (or greater) (http://php.net/).
@@ -53,10 +29,6 @@ PHP extensions and configurations that are required, see "System requirements"
 For detailed information on how to configure a test server environment using a
 variety of operating systems and web servers, see "Local server setup"
 (https://www.drupal.org/node/157602) in the Drupal.org online documentation.
-
-Note that all directories mentioned in this document are always relative to the
-directory of your Drupal installation, and commands are meant to be run from
-this directory (except for the initial commands that create that directory).
 
 ## Create MySQL Database
 
@@ -120,15 +92,6 @@ create file settings.local.php
 copy DB settings from settings.php to settings.local.php
 
 
-
-## Security
-
-For a list of security announcements, see the [Security advisories
-page][Security advisories] 
-
-For information about the Drupal security process, or to find out how to report
-a potential security issue to the Drupal security team, see the [Security team
-page][security team].
 
 ## Need a helping hand?
 
